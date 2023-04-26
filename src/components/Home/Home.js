@@ -6,6 +6,7 @@ import WelcomeMessage from "../WelcomeMessage/WelcomeMessage";
 const Home = () => {
   return (
     <div className="Home">
+      <div className="fondo"></div>
       <Header />
       <WelcomeMessage />
     </div>
