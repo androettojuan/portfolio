@@ -1,0 +1,43 @@
+.container-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 160px;
+}
+
+.welcome {
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
+  color: #ffffff;
+  margin-bottom: 20px;
+  @media (max-width: 600px) {
+    font-size: 30px;
+  }
+}
+
+.my-name {
+  font-size: 60px;
+  font-weight: 400;
+  text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+  @media (max-width: 600px) {
+    font-size: 40px;
+  }
+}
+
+.dev {
+  padding: 16px 24px;
+  background-color: rgba(239, 56, 36, 0.15);
+  color: #ef3724;
+  text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 40px;
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}

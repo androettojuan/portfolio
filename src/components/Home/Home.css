@@ -1,0 +1,9 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    background-image: url("C:\Users\Juan\Documents\portfolio\public\fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    height: 800px;
+}
