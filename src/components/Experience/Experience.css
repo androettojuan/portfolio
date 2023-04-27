@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 60px auto;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.container-details {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 600px) {
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.container-details ul {
+  @media (max-width: 600px) {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+  @media (max-width: 600px) {
+    margin-bottom: 0px;
+  }
+}
+
+.date {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  @media (max-width: 600px) {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.content h5 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 0px;
+  @media (max-width: 600px) {
+    text-align: center;
+  }
+}
+
+.content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin: 10px 0 0 0;
+}
+
+.academy {
+  font-size: 18px;
+  font-weight: 500;
+  color: #e50914;
+  margin-bottom: 6px;
+}
+
+.ul-edu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+}
