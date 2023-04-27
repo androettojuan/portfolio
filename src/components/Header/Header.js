@@ -8,16 +8,16 @@ const Header = () => {
     <div className="Header">
       <div className="container-header">
         <div>
-          <a className="link" href="/">
+          <a className="link" href="#home">
             Home
           </a>
-          <a className="link" href="/about">
+          <a className="link" href="#about">
             About
-          </a>
-          <a className="link" href="/portfolio">
+          </a>          
+          <a className="link" href="#portfolio">
             Portfolio
           </a>
-          <a className="link" href="/contact">
+          <a className="link" href="#contact">
             Contact
           </a>
         </div>
