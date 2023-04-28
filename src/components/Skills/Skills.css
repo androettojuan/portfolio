@@ -6,7 +6,7 @@
 
 .skills-title {
   font-size: 48px;
-  color: #000000;
+  color: #edf2f4;
   margin-bottom: 36px;
 }
 
@@ -28,24 +28,25 @@
 
 .icon-title {
   font-size: 24px;
-  color: #000000;
+  color: #8d99ae;
 }
 
 .icon {
   margin: 10px;
   width: 100px;
   height: 100px;
+  color: #8d99ae;
 }
 
 .icon-express {
   width: 100px;
   height: 100px;
   margin: 10px;
-  background-color: #000000;
+  background-color: #8d99ae;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #2b2d42;
   font-size: 24px;
 }

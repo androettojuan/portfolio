@@ -5,6 +5,19 @@ const Experience = () => {
   return (
     <div className="container">
       <div className="container-details">
+        <h1 className="title">Experience</h1>
+        <ul>
+          <li>
+            <div className="content">
+              <h5>Full Stack Developer</h5>
+              <span className="academy">Loops</span>
+              <span className="date">May 2022 - Actualidad</span>
+              <p>React - Typescript - Firebase - PWA</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div className="container-details">
         <h1 className="title">Education</h1>
         <ul className="ul-edu">
           <li>
@@ -48,19 +61,6 @@ const Experience = () => {
               <span className="academy">youtube.com/@soydalto</span>
               <span className="date">2023</span>
               <p>SQLite - MySQL</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div className="container-details">
-        <h1 className="title">Experience</h1>
-        <ul>
-          <li>
-            <div className="content">
-              <h5>Full Stack Developer</h5>
-              <span className="academy">Loops</span>
-              <span className="date">May 2022 - Actualidad</span>
-              <p>React - Typescript - Firebase - PWA</p>
             </div>
           </li>
         </ul>

@@ -2,7 +2,7 @@
   display: flex;
   padding: 0 20px;
   height: 80px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(43, 45, 66, 0.6);
   margin-top: 28px;
   z-index: 10;
   @media (max-width: 600px) {
@@ -24,7 +24,7 @@
 
 .link {
   text-decoration: none;
-  color: #fff;
+  color: #edf2f4;
   font-size: 18px;
   margin: 0 20px;
   @media (max-width: 600px) {
@@ -33,7 +33,7 @@
 }
 
 .button-header {
-  background-color: #e50914;
+  background-color: #ef233c;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -51,7 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #2132d4;
+    border: 2px solid #ef233c;
     border-radius: 8px;
     background-color: transparent;
     color: #fff;
