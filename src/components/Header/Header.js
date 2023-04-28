@@ -29,16 +29,16 @@ const Header = () => {
       {showMenu && (
         <div className="div-menu">
           <div className="link-container">
-            <a className="link-menu" href="/">
+            <a className="link-menu" href="#home">
               Home
             </a>
-            <a className="link-menu" href="/about">
+            <a className="link-menu" href="#about">
               About
             </a>
-            <a className="link-menu" href="/portfolio">
+            <a className="link-menu" href="#portfolio">
               Portfolio
             </a>
-            <a className="link-menu" href="/contact">
+            <a className="link-menu" href="#contact">
               Contact
             </a>
           </div>
