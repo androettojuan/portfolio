@@ -1,14 +1,14 @@
 import React from "react";
 import Description from "../Description/Description";
 import Skills from "../Skills/Skills";
-import Experience from "../Experience/Experience";
+import MyResume from "../MyResume/MyResume";
 
 const About = () => {
   return (
     <div className="about" id="about">
       <Description></Description>
       <Skills></Skills>
-      <Experience></Experience>
+      <MyResume></MyResume>
     </div>
   );
 };

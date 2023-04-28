@@ -1,7 +1,7 @@
 import React from "react";
-import "./Experience.css";
+import "./MyResume.css";
 
-const Experience = () => {
+const MyResume = () => {
   return (
     <div className="container">
       <div className="container-details">
@@ -69,4 +69,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default MyResume;
