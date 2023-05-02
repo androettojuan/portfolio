@@ -49,16 +49,20 @@
   align-items: center;
   justify-content: space-between;
   width: 900px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
-.container-details-contact{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    color: #8d99ae;
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 20px;
+.container-details-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #8d99ae;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }

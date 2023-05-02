@@ -12,13 +12,14 @@
 
 .container-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   height: 100%;
   width: 900px;
   @media (max-width: 600px) {
     width: 100%;
+    justify-content: flex-start;
   }
 }
 
@@ -27,19 +28,6 @@
   color: #edf2f4;
   font-size: 18px;
   margin: 0 20px;
-  @media (max-width: 600px) {
-    display: none;
-  }
-}
-
-.button-header {
-  background-color: #ef233c;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  padding: 14px;
-  font-size: 18px;
-  cursor: pointer;
   @media (max-width: 600px) {
     display: none;
   }

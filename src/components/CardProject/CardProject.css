@@ -37,6 +37,10 @@
 .card-content {
   padding: 10px;
   text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
   @media (max-width: 600px) {
     height: 60px;
   }
@@ -53,10 +57,6 @@
 }
 
 .card-description {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
   font-size: 16px;
   font-weight: 400;
   color: #edf2f4;

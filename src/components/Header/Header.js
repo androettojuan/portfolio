@@ -21,7 +21,6 @@ const Header = () => {
             Contacto
           </a>
         </div>
-        <button className="button-header">Es</button>
         <button className="button-menu" onClick={() => setShowMenu(!showMenu)}>
           <FiAlignJustify />
         </button>
@@ -42,7 +41,6 @@ const Header = () => {
               Contact
             </a>
           </div>
-          <button className="button-header">Es</button>
         </div>
       )}
     </div>
