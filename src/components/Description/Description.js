@@ -10,24 +10,27 @@ const Description = () => {
           <span className="name">Juan Manuel Androetto</span>
           <span className="role">Full Stack Developer</span>
           <p className="role-description">
-            I am a Full Stack Developer with a passion for learning and
-            improving my skills. I am a fast learner and I am always looking for
-            new challenges. I am a team player and I am always willing to help
-            my teammates. I am a very responsible person and I always try to
-            give my best in everything I do.
+            Soy un desarrollador Full Stack apasionado por aprender y mejorar
+            continuamente mis habilidades. Me considero un aprendiz rápido y
+            siempre estoy en busca de nuevos desafíos para seguir creciendo
+            profesionalmente. Mi estilo de trabajo se enfoca en el trabajo en
+            equipo y en colaborar con mis compañeros para alcanzar nuestros
+            objetivos. Asimismo, me caracterizo por ser una persona muy
+            responsable que siempre trata de dar lo mejor de sí en todo lo que
+            hago.
           </p>
           <ul className="list">
             <li className="list-li">
-              <b className="b">From: </b>General Levalle, Córdoba, Argentina
+              <b className="b">De: </b>General Levalle, Córdoba, Argentina
             </li>
             <li className="list-li">
-              <b className="b">Lives in:</b>Rio Cuarto, Córdoba, Argentina
+              <b className="b">Vivo en:</b>Rio Cuarto, Córdoba, Argentina
             </li>
             <li className="list-li">
-              <b className="b">Age:</b>27
+              <b className="b">Edad:</b>27
             </li>
           </ul>
-          <button className="button-cv">Download CV</button>
+          <button className="button-cv">Descargar CV</button>
         </div>
       </div>
     </div>

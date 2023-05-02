@@ -9,16 +9,16 @@ const Header = () => {
       <div className="container-header">
         <div>
           <a className="link" href="#home">
-            Home
+            Inicio
           </a>
           <a className="link" href="#about">
-            About
+            Sobre mi
           </a>          
           <a className="link" href="#portfolio">
-            Portfolio
+            Proyectos
           </a>
           <a className="link" href="#contact">
-            Contact
+            Contacto
           </a>
         </div>
         <button className="button-header">Es</button>

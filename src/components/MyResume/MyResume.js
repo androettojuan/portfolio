@@ -6,7 +6,7 @@ const MyResume = () => {
   return (
     <div className="container">
       <div className="container-details">
-        <h1 className="title">Experience</h1>
+        <h1 className="title">Experiencia</h1>
         <Experience
           year={"May 2022 - Actualidad"}
           academy={"Loops"}
@@ -15,7 +15,7 @@ const MyResume = () => {
         />
       </div>
       <div className="container-details">
-        <h1 className="title">Education</h1>
+        <h1 className="title">Educación</h1>
         <Experience
           year={"2021"}
           academy={"mastermind.ac"}

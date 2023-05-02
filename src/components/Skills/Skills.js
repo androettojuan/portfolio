@@ -7,7 +7,7 @@ import { SiTypescript, SiPython, SiSqlite, SiFirebase } from "react-icons/si";
 const Skills = () => {
   return (
     <div className="skills" id="skills">
-      <span className="skills-title">My Skills</span>
+      <span className="skills-title">Competencias</span>
       <div className="container-icons">
         <div className="container-icon">
           <IoLogoHtml5 className="icon"></IoLogoHtml5>
