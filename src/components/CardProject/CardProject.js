@@ -1,9 +1,9 @@
 import React from "react";
 import "./CardProject.css";
 
-const CardProject = ({ img, title, description }) => {
+const CardProject = ({ img, title, description, onClick }) => {
   return (
-    <div className="card">
+    <div className="card" onClick={onClick}>
       <div className="card-image">
         <img src={img} alt={img} />
       </div>
