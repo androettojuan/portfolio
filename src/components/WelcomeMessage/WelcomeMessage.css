@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 160px 0 60px 0;
+  margin: 100px 0 120px 0;
   @media (max-width: 600px) {
     margin: 90px 0 60px 0;
   }
@@ -12,7 +12,6 @@
 .welcome {
   font-size: 40px;
   font-weight: 500;
-
   color: #ffffff;
   margin-bottom: 20px;
   @media (max-width: 600px) {

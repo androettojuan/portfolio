@@ -29,31 +29,31 @@ const MyProjects = () => {
           img="\Logos\pagina cabalgatas.png"
           title="Pagina Cabalgatas"
           description="Pagina para venta de cabalgatas"
-          onClick={() => window.open("https://cabalgatas.surge.sh/")}
+          onClick={() => window.open("https://github.com/androettojuan/web-cabalgatas")}
         ></CardProject>
         <CardProject
           img="\Logos\carro de compras.png"
           title="Carro de compras"
           description="Ejecicio de carro de compras"
-          onClick={() => window.open("https://carro-compras.surge.sh/")}
+          onClick={() => window.open("https://github.com/androettojuan/carro-de-compras")}
         ></CardProject>
         <CardProject
           img="\Logos\calculadora.png"
           title="Calculadora"
           description="Calculadora - React app"
-          onClick={() => window.open("https://calculadora-test-react.surge.sh/")}
+          onClick={() => window.open("https://github.com/androettojuan/calculadora")}
         ></CardProject>
         <CardProject
           img="\Logos\buscador de imagenes.png"
           title="Buscardor de imagenes"
           description="Buscador de imagenes - React app "
-          onClick={() => window.open("https://buscador-de-imagenes.surge.sh/")}
+          onClick={() => window.open("https://github.com/androettojuan/buscador-imagenes")}
         ></CardProject>
         <CardProject
           img="\Logos\juego de la vida.png"
           title="Juego de la vida"
           description="Juego de la vida - React app"
-          onClick={() => window.open("https://juego-de-la-vida.surge.sh/")}
+          onClick={() => window.open("https://github.com/androettojuan/juego-de-la-vida")}
         ></CardProject>
         <CardProject
           img="\Logos\calculadora en react-native.png"
@@ -65,7 +65,7 @@ const MyProjects = () => {
           img="\Logos\buscador de cartas.png"
           title="Buscador de cartas"
           description="Buscador de cartas - React app"
-          onClick={() => window.open("https://buscar-carta-yu-gi-oh.surge.sh/")}
+          onClick={() => window.open("https://github.com/androettojuan/yugioh")}
         ></CardProject>
         <CardProject
           img="\Logos\pokemon.png"

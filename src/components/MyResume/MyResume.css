@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 60px auto;
 }
 
 .container-details {
   display: flex;
   flex-direction: column;
-  width: 800px;
+  width: 1000px;
   @media (max-width: 600px) {
     align-items: center;
     justify-content: center;
