@@ -2,6 +2,15 @@ import React from "react";
 import "./Description.css";
 
 const Description = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "curriculum.pdf";
+    link.download = "curriculum.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="description-container">
       <div className="description">
@@ -30,7 +39,9 @@ const Description = () => {
               <b className="b">Edad:</b>27
             </li>
           </ul>
-          <button className="button-cv">Descargar CV</button>
+          <button className="button-cv" onClick={handleDownload}>
+            Descargar CV
+          </button>
         </div>
       </div>
     </div>
