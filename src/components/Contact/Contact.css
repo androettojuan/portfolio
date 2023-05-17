@@ -14,7 +14,7 @@
   justify-content: center;
   margin: 20px 0 40px 0;
   @media (max-width: 600px) {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
@@ -65,4 +65,7 @@
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
+  @media (max-width: 600px) {
+    font-size: 16px;
+  }
 }

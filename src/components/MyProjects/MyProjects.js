@@ -26,7 +26,7 @@ const MyProjects = () => {
           onClick={() => window.open("https://qr.jugaya.ar/")}
         ></CardProject>
         <CardProject
-          img="\Logos\pagina cabalgatas.png"
+          img="\Logos\Pagina-cabalgatas.png"
           title="Pagina Cabalgatas"
           description="Pagina para venta de cabalgatas"
           onClick={() => window.open("https://github.com/androettojuan/web-cabalgatas")}
@@ -50,7 +50,7 @@ const MyProjects = () => {
           onClick={() => window.open("https://github.com/androettojuan/buscador-imagenes")}
         ></CardProject>
         <CardProject
-          img="\Logos\juego de la vida.png"
+          img="\Logos\Juego de la vida.png"
           title="Juego de la vida"
           description="Juego de la vida - React app"
           onClick={() => window.open("https://github.com/androettojuan/juego-de-la-vida")}
@@ -68,7 +68,7 @@ const MyProjects = () => {
           onClick={() => window.open("https://github.com/androettojuan/yugioh")}
         ></CardProject>
         <CardProject
-          img="\Logos\pokemon.png"
+          img="\Logos\Pokemon.png"
           title="Juego Pokemon"
           description="Juego de pokemon en javascript"
           onClick={() => window.open("https://github.com/androettojuan/juego_pokemon")}
