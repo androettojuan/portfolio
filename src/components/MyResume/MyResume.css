@@ -18,12 +18,13 @@
 }
 
 .title {
-  font-size: 36px;
-  font-weight: 600;
+  font-size: 48px;
   color: #edf2f4;
   margin-bottom: 20px;
   text-align: center;
   @media (max-width: 600px) {
+    font-size: 36px;
+    margin-top: 20px;
     margin-bottom: 0px;
   }
 }

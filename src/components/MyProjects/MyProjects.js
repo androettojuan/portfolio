@@ -5,7 +5,7 @@ import "./MyProjects.css";
 const MyProjects = () => {
   return (
     <div className="projects">
-      <h2>Mis proyectos</h2>
+      <span className="projects-title">Mis proyectos</span>
       <div className="projects__container">
         <CardProject
           img="\Logos\jugaya.png"
