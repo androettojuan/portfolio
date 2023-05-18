@@ -13,9 +13,6 @@
   align-items: center;
   justify-content: center;
   margin: 20px 0 40px 0;
-  @media (max-width: 600px) {
-    flex-direction: row;
-  }
 }
 
 .icon-c {
@@ -31,11 +28,6 @@
   width: 70px;
   height: 70px;
   color: #8d99ae;
-  @media (max-width: 600px) {
-    margin: 6px;
-    width: 50px;
-    height: 50px;
-  }
 }
 
 .contact-title {
@@ -49,11 +41,8 @@
   align-items: center;
   justify-content: space-between;
   width: 900px;
-  @media (max-width: 600px) {
-    flex-direction: column;
-    width: 80%;
-  }
 }
+
 
 .container-details-contact {
   display: flex;
@@ -65,7 +54,25 @@
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 20px;
-  @media (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
+  .contact-details {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .container-details-contact {
     font-size: 14px;
+  }
+
+  .contact-icon{
+    margin: 6px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .icons-c{
+    flex-direction: column;
   }
 }

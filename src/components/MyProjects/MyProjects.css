@@ -11,9 +11,6 @@
   font-size: 48px;
   color: #edf2f4;
   margin-bottom: 36px;
-  @media (max-width: 600px) {
-    font-size: 36px;
-  }
 }
 
 .projects__container {
@@ -22,4 +19,10 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .projects-title{
+    font-size: 36px;
+  }
 }

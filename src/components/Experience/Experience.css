@@ -12,9 +12,6 @@
   display: flex;
   flex-direction: column;
   width: 260px;
-  @media (max-width: 600px) {
-    margin-right: 16px;
-  }
 }
 
 .info-experience h5 {
@@ -23,9 +20,6 @@
   color: #edf2f4;
   margin: 0px;
   text-transform: uppercase;
-  @media (max-width: 600px) {
-    font-size: 16px;
-  }
 }
 
 .academy {
@@ -33,9 +27,6 @@
   font-weight: 500;
   color: #d90429;
   margin-bottom: 6px;
-  @media (max-width: 600px) {
-    font-size: 14px;
-  }
 }
 
 .year {
@@ -43,9 +34,6 @@
   font-weight: 400;
   color: #edf2f4;
   margin: 0;
-  @media (max-width: 600px) {
-    font-size: 12px;
-  }
 }
 
 .experience p {
@@ -57,7 +45,26 @@
   width: 400px;
   justify-content: flex-end;
   text-transform: uppercase;
-  @media (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
+  .info-experience{
+    margin-right: 16px;
+  }
+
+  .info-experience h5{
+    font-size: 16px;
+  }
+
+  .academy{
+    font-size: 14px;
+  }
+
+  .year{
+    font-size: 12px;
+  }
+
+  .experience p{
     font-size: 14px;
     width: 300px;
   }

@@ -4,9 +4,6 @@
   align-items: center;
   flex-direction: column;
   margin: 100px 0 120px 0;
-  @media (max-width: 600px) {
-    margin: 90px 0 60px 0;
-  }
 }
 
 .welcome {
@@ -14,9 +11,6 @@
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 20px;
-  @media (max-width: 600px) {
-    font-size: 30px;
-  }
 }
 
 .my-name {
@@ -25,9 +19,6 @@
   color: #ffffff;
   margin-bottom: 20px;
   text-align: center;
-  @media (max-width: 600px) {
-    font-size: 40px;
-  }
 }
 
 .dev {
@@ -37,7 +28,19 @@
   font-size: 30px;
   font-weight: 500;
   border-radius: 40px;
-  @media (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
+  .container-message {
+    margin: 60px 0 60px 0;
+  }
+  .my-name {
+    font-size: 40px;
+  }
+  .welcome {
+    font-size: 30px;
+  }
+  .dev {
     font-size: 20px;
   }
 }

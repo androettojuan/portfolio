@@ -5,11 +5,6 @@
   max-width: 300px;
   background-color: #1c1d2b;
   cursor: pointer;
-  @media (max-width: 600px) {
-    max-width: 160px;
-    max-height: 90x;
-    margin: 10px;
-  }
 }
 
 .card:hover {
@@ -22,10 +17,6 @@
   height: 150px;
   border-radius: 10px 10px 0 0;
   background-color: #edf2f4;
-  @media (max-width: 600px) {
-    width: 160px;
-    height: 110px;
-  }
 }
 
 .card-image img {
@@ -42,9 +33,6 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  @media (max-width: 600px) {
-    height: 60px;
-  }
 }
 
 .card-title {
@@ -52,9 +40,6 @@
   font-weight: 600;
   color: #edf2f4;
   margin: 0 0 10px 0;
-  @media (max-width: 600px) {
-    font-size: 16px;
-  }
 }
 
 .card-description {
@@ -62,7 +47,28 @@
   font-weight: 400;
   color: #edf2f4;
   margin: 0;
-  @media (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    max-width: 160px;
+    max-height: 90x;
+    margin: 10px;
+  }
+  .card-image {
+    width: 160px;
+    height: 110px;
+  }
+
+  .card-content {
+    height: 60px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-description {
     font-size: 12px;
   }
 }
