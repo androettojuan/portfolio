@@ -14,7 +14,7 @@ const Description = () => {
   return (
     <div className="description-container">
       <div className="description">
-        <img className="img-description" src="/fotoJuan.png" alt="about" />
+        <img className="img-description" src="/fotoJuan.jpg" alt="about" />
         <div className="text-description">
           <span className="name">Juan Manuel Androetto</span>
           <span className="role">Full Stack Developer</span>
