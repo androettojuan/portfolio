@@ -13,7 +13,7 @@ const Header = () => {
           </a>
           <a className="link" href="#about">
             Sobre mi
-          </a>          
+          </a>
           <a className="link" href="#portfolio">
             Proyectos
           </a>
@@ -29,16 +29,16 @@ const Header = () => {
         <div className="div-menu">
           <div className="link-container">
             <a className="link-menu" href="#home">
-              Home
+              Inicio
             </a>
             <a className="link-menu" href="#about">
-              About
+              Sobre mi
             </a>
             <a className="link-menu" href="#portfolio">
-              Portfolio
+              Proyectos
             </a>
             <a className="link-menu" href="#contact">
-              Contact
+              Contacto
             </a>
           </div>
         </div>
