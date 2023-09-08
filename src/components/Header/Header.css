@@ -23,6 +23,10 @@
   margin: 0 20px;
 }
 
+.link:hover {
+  color: #ef233c;
+}
+
 .button-menu {
   display: none;
 }
