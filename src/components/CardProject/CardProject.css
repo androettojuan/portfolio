@@ -5,11 +5,12 @@
   max-width: 300px;
   background-color: #1c1d2b;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .card:hover {
   transform: scale(1.15);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .card-image {
