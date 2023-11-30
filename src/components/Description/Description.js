@@ -36,7 +36,9 @@ const Description = () => {
               <b className="b">Vivo en:</b>Rio Cuarto, Córdoba, Argentina
             </li>
             <li className="list-li">
-              <b className="b">Edad:</b>27
+              <b className="b">Edad:</b> {
+                new Date().getFullYear() - new Date("1995-08-03").getFullYear()
+              }
             </li>
           </ul>
           <button className="button-cv" onClick={handleDownload}>
