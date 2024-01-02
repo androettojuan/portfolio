@@ -11,6 +11,19 @@ const Description = () => {
     document.body.removeChild(link);
   };
 
+  const calcularEdad = (fecha) => {
+    var hoy = new Date();
+    var cumpleanos = new Date(fecha);
+    var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+    var m = hoy.getMonth() - cumpleanos.getMonth();
+
+    if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
+      edad--;
+    }
+
+    return edad;
+  }
+
   return (
     <div className="description-container">
       <div className="description">
@@ -37,7 +50,7 @@ const Description = () => {
             </li>
             <li className="list-li">
               <b className="b">Edad:</b> {
-                new Date().getFullYear() - new Date("1995-08-03").getFullYear()
+                calcularEdad("1995/08/03")
               }
             </li>
           </ul>
