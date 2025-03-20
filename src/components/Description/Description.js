@@ -22,7 +22,7 @@ const Description = () => {
     }
 
     return edad;
-  }
+  };
 
   return (
     <div className="description-container">
@@ -32,14 +32,17 @@ const Description = () => {
           <span className="name">Juan Manuel Androetto</span>
           <span className="role">Full Stack Developer</span>
           <p className="role-description">
-            Soy un desarrollador Full Stack apasionado por aprender y mejorar
-            continuamente mis habilidades. Me considero un aprendiz rápido y
-            siempre estoy en busca de nuevos desafíos para seguir creciendo
-            profesionalmente. Mi estilo de trabajo se enfoca en el trabajo en
-            equipo y en colaborar con mis compañeros para alcanzar nuestros
-            objetivos. Asimismo, me caracterizo por ser una persona muy
-            responsable que siempre trata de dar lo mejor de sí en todo lo que
-            hago.
+            Soy desarrollador frontend con experiencia en React. Hace tres años
+            me inicié en la programación gracias a mi hermano, quien ya
+            trabajaba en el rubro. Siempre me interesó el desarrollo, pero no
+            fue hasta un viaje a Italia que aproveché el tiempo libre para
+            comenzar a estudiar. Poco después surgió la oportunidad de crear
+            JugaYa, una app para gestionar reservas en la cancha de pádel de mi
+            familia. Inicialmente era un proyecto interno, pero luego lo
+            expandimos para que otros clubes pudieran administrar sus horarios.
+            Tras su lanzamiento, la app me permitió corregir errores y mejorar
+            sus funciones. Actualmente, sigo mejorando JugaYa, trabajando en
+            proyectos personales y buscando oportunidades en una empresa.
           </p>
           <ul className="list">
             <li className="list-li">
@@ -49,9 +52,7 @@ const Description = () => {
               <b className="b">Vivo en:</b>Rio Cuarto, Córdoba, Argentina
             </li>
             <li className="list-li">
-              <b className="b">Edad:</b> {
-                calcularEdad("1995/08/03")
-              }
+              <b className="b">Edad:</b> {calcularEdad("1995/08/03")}
             </li>
           </ul>
           <button className="button-cv" onClick={handleDownload}>

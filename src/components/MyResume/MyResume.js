@@ -13,6 +13,12 @@ const MyResume = () => {
           role={"Full Stack Developer"}
           details={"React - Typescript - Firebase - PWA"}
         />
+        <Experience
+          year={"May 2022 - Actualidad"}
+          academy={"Freelance"}
+          role={"Frontend Developer"}
+          details={"React - Typescript - PWA"}
+        />
       </div>
       <div className="container-details">
         <span className="title">Educación</span>

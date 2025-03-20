@@ -17,6 +17,9 @@ const Header = () => {
           <a className="link" href="#portfolio">
             Proyectos
           </a>
+          <a className="link" href="#experience">
+            Experiencia
+          </a>
           <a className="link" href="#contact">
             Contacto
           </a>
